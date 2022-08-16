@@ -1,0 +1,164 @@
+
+body{
+    margin: 0 7%;
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Space Mono', serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.title{
+    
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Inconsolata', monospace;;
+}
+
+.scarecrow-img{
+    width: 100%;
+    margin-top: 15%;
+}
+
+.intro{
+    text-align: left;
+    margin-bottom: 15%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    
+}
+
+
+.p1 > p{
+    width: 95%;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.p2{    
+    margin-top: 25px;
+}
+
+.p2 > p{
+    font-weight: 400;
+    color: #4F4F4F;
+    width: 24ch;
+    font-size: 1rem;
+    margin: 0;
+    
+}
+
+
+.btn {
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #333333;
+    padding: 1.5rem;
+    text-transform: uppercase;
+    font-size: 70%;
+}
+
+.attribution{
+    font-size: 0.75rem;
+    margin-top: 20%;
+    margin-bottom: 0%;
+    color: #BDBDBD;
+    text-align: left;
+}
+
+.attribution a{
+    color: #BDBDBD;
+    width: 100%;
+}
+
+@media only screen and (min-width: 450px){
+    .title{
+        font-size: 4vw;  
+    }
+    .intro-1 > p{
+        font-size: 10vw;
+        margin-top: 10%;
+    }
+    
+    .intro-2 > p{
+        font-size: 4vw;
+    }
+
+    .btn{
+        padding: 7%;
+        font-size: 3vw;
+    }
+
+    .attribution{
+        font-size: 100%;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 1024px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        scroll-behavior: smooth;
+    }
+
+    .title{
+        font-size: 120%;
+    }
+
+    .main-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-container{
+        width: 50%;
+        align-items: flex-start;
+    }
+
+    .scarecrow-img{
+        width: 150%;
+        margin-left: -50px;
+    }
+
+    .intro-container{
+        width: 50%;
+        margin-left: 25%;
+        align-self: flex-start;
+        margin-top: 5%;
+    }
+
+    .p1 > p{
+        font-size: 300%;
+        width: 15ch;
+    }
+
+    .p2 > p{
+        font-size: 120%;
+        width: 25ch;
+        line-height: 1.5;
+    }
+
+    .btn{
+        padding: 5%;
+        font-size: 70%;
+        
+    }
+
+
+    .attribution{
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 0%;
+    
+    }
+ }
